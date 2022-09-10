@@ -6,6 +6,7 @@ namespace дз_3_задание
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("4 случайные числа");
             Random rnd = new Random();
             for (int i = 0; i < 4; i ++)
             {
