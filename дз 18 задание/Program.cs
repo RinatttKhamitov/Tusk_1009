@@ -14,7 +14,7 @@ namespace дз_18_задание
             int x2 = int.Parse(Console.ReadLine());
             Console.Write("Введи y2 = ");
             int y2 = int.Parse(Console.ReadLine());
-            Console.WriteLine($"расстояния между ними ");
+            Console.WriteLine($"расстояния между ними {Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2))}");
         }
     }
 }
