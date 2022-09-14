@@ -37,19 +37,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 11 задание", "�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 12 задание", "дз 12 задание\дз 12 задание.csproj", "{2A165FDA-E360-4D0F-9E69-31BAF43C2E28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 13 задание", "дз 13 задание\дз 13 задание.csproj", "{5D82E8B4-3A28-40FA-AADF-C5472D59795F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 13 задание", "дз 13 задание\дз 13 задание.csproj", "{5D82E8B4-3A28-40FA-AADF-C5472D59795F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 14 задание", "дз 14 задание\дз 14 задание.csproj", "{C030BA14-20A3-4169-8B12-BDAC747D8B06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 14 задание", "дз 14 задание\дз 14 задание.csproj", "{C030BA14-20A3-4169-8B12-BDAC747D8B06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 15 задание", "дз 15 задание\дз 15 задание.csproj", "{E57949BF-77A7-4C64-A6CF-C2B089657ACB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 15 задание", "дз 15 задание\дз 15 задание.csproj", "{E57949BF-77A7-4C64-A6CF-C2B089657ACB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 16 задание", "дз 16 задание\дз 16 задание.csproj", "{80FD2DBC-0249-41B2-A99B-CB23931796EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 16 задание", "дз 16 задание\дз 16 задание.csproj", "{80FD2DBC-0249-41B2-A99B-CB23931796EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 17 задание", "дз 17 задание\дз 17 задание.csproj", "{149ED53F-0BB5-4184-8B2B-6EBF0D4CA171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 17 задание", "дз 17 задание\дз 17 задание.csproj", "{149ED53F-0BB5-4184-8B2B-6EBF0D4CA171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 18 задание", "дз 18 задание\дз 18 задание.csproj", "{023BAEC6-09F5-400C-953C-6C4EEB1EEE64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 18 задание", "дз 18 задание\дз 18 задание.csproj", "{023BAEC6-09F5-400C-953C-6C4EEB1EEE64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 19 задание", "дз 19 задание\дз 19 задание.csproj", "{2B6046F3-A274-425A-ABE8-E0876F77D9E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 19 задание", "дз 19 задание\дз 19 задание.csproj", "{2B6046F3-A274-425A-ABE8-E0876F77D9E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 20 задание", "дз 20 задание\дз 20 задание.csproj", "{85A13818-3507-4670-923E-3B898495755B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{2B6046F3-A274-425A-ABE8-E0876F77D9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B6046F3-A274-425A-ABE8-E0876F77D9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B6046F3-A274-425A-ABE8-E0876F77D9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A13818-3507-4670-923E-3B898495755B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A13818-3507-4670-923E-3B898495755B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A13818-3507-4670-923E-3B898495755B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A13818-3507-4670-923E-3B898495755B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
