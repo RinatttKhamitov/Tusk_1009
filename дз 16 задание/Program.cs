@@ -18,7 +18,7 @@ namespace дз_16_задание
             D = Math.Sqrt(D);
             double x1 = (-b + D) / 2 * a;
             double x2 = (-b - D) / 2 * a;
-            Console.WriteLine($"первый корень {x1} второй корень {x2}")
+            Console.WriteLine($"первый корень {x1} второй корень {x2}");
         }
     }
 }
