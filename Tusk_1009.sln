@@ -51,13 +51,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 18 задание", "�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 19 задание", "дз 19 задание\дз 19 задание.csproj", "{2B6046F3-A274-425A-ABE8-E0876F77D9E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 20 задание", "дз 20 задание\дз 20 задание.csproj", "{85A13818-3507-4670-923E-3B898495755B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 20 задание", "дз 20 задание\дз 20 задание.csproj", "{85A13818-3507-4670-923E-3B898495755B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 21 задание", "дз 21 задание\дз 21 задание.csproj", "{C427D1D5-B021-45F6-AB1D-C51EE50DF7EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 21 задание", "дз 21 задание\дз 21 задание.csproj", "{C427D1D5-B021-45F6-AB1D-C51EE50DF7EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 22 задание", "дз 22 задание\дз 22 задание.csproj", "{6C6D6755-CC15-4265-BF7F-D61F829DE8B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 22 задание", "дз 22 задание\дз 22 задание.csproj", "{6C6D6755-CC15-4265-BF7F-D61F829DE8B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 23 задание", "дз 23 задание\дз 23 задание.csproj", "{0ABA44C4-8F0D-4D5A-A184-125612A16311}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 23 задание", "дз 23 задание\дз 23 задание.csproj", "{0ABA44C4-8F0D-4D5A-A184-125612A16311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 24 задание", "дз 24 задание\дз 24 задание.csproj", "{4E5C0450-7263-4DB3-BCC1-9D207324FCDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{0ABA44C4-8F0D-4D5A-A184-125612A16311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ABA44C4-8F0D-4D5A-A184-125612A16311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ABA44C4-8F0D-4D5A-A184-125612A16311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5C0450-7263-4DB3-BCC1-9D207324FCDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5C0450-7263-4DB3-BCC1-9D207324FCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5C0450-7263-4DB3-BCC1-9D207324FCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5C0450-7263-4DB3-BCC1-9D207324FCDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
