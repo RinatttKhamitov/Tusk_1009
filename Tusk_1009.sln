@@ -77,6 +77,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "дз 31 задание", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 32 задание", "дз 32 задание\дз 32 задание.csproj", "{2A7735A3-D31C-4C7D-8C6B-E8DB617B780E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "дз 33 задание", "дз 33 задание\дз 33 задание.csproj", "{16BA29DC-2C12-45C8-A573-05C651FAAD8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{2A7735A3-D31C-4C7D-8C6B-E8DB617B780E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A7735A3-D31C-4C7D-8C6B-E8DB617B780E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A7735A3-D31C-4C7D-8C6B-E8DB617B780E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16BA29DC-2C12-45C8-A573-05C651FAAD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BA29DC-2C12-45C8-A573-05C651FAAD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BA29DC-2C12-45C8-A573-05C651FAAD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BA29DC-2C12-45C8-A573-05C651FAAD8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
