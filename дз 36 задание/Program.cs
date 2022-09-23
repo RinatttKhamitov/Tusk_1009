@@ -10,9 +10,25 @@ namespace дз_36_задание
             Console.WriteLine("Случайный EAN13");
             long value = LongRandom(10000000000, 999999999999, new Random());
             string str = value.ToString();
-            int c = (int)Char.GetNumericValue(str[1]) + (int)Char.GetNumericValue(str[3]) + (int)Char.GetNumericValue(str[5]) + (int)Char.GetNumericValue(str[7]) + (int)Char.GetNumericValue(str[9]) + (int)Char.GetNumericValue(str[11]);
+            int c = 0;
+            for (int i = 0; i < str.Length; i ++)
+            {
+                if (i % 2 != 0)
+                {
+
+                    c += (int)Char.GetNumericValue(str[i]);
+                }
+            }
             c = c * 3;
-            int nc = (int)Char.GetNumericValue(str[2]) + (int)Char.GetNumericValue(str[4]) + (int)Char.GetNumericValue(str[6]) + (int)Char.GetNumericValue(str[8]) + (int)Char.GetNumericValue(str[10]);
+            int nc = 0;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (i % 2 == 0)
+                {
+
+                    nc += (int)Char.GetNumericValue(str[i]);
+                }
+            }
             c += nc;
             string laststr = c.ToString();
             int lastnum = 10 - (int)Char.GetNumericValue(laststr[laststr.Length - 1]);
@@ -21,15 +37,27 @@ namespace дз_36_задание
             Console.Write("Введи 12 цифр: ");
             value = long.Parse(Console.ReadLine());
             str = value.ToString();
-            c = (int)Char.GetNumericValue(str[1]) + (int)Char.GetNumericValue(str[3]) + (int)Char.GetNumericValue(str[5]) + (int)Char.GetNumericValue(str[7]) + (int)Char.GetNumericValue(str[9]) + (int)Char.GetNumericValue(str[11]);
+            c = 0;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (i % 2 != 0)
+                {
+
+                    c += (int)Char.GetNumericValue(str[i]);
+                }
+            }
             c = c * 3;
-            Console.WriteLine(str);
-            Console.WriteLine(c);
-            nc = (int)Char.GetNumericValue(str[2]) + (int)Char.GetNumericValue(str[4]) + (int)Char.GetNumericValue(str[6]) + (int)Char.GetNumericValue(str[8]) + (int)Char.GetNumericValue(str[10]);
+            nc =0;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (i % 2 == 0)
+                {
+
+                    nc += (int)Char.GetNumericValue(str[i]);
+                }
+            }
             c += nc;
-            Console.WriteLine(nc);
             laststr = c.ToString();
-            Console.WriteLine(laststr);
             lastnum = 10 - (int)Char.GetNumericValue(laststr[laststr.Length - 1]);
             Console.WriteLine($"Число EAN13 = {str}{lastnum}");
 
