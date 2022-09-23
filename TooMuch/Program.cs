@@ -10,6 +10,7 @@ namespace TooMuch
             Console.Write("Привет как тебя завут?: ");
             string name = Console.ReadLine();
             Console.WriteLine($"Привет {name}");
+
         }
     }
 }

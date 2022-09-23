@@ -12,7 +12,9 @@ namespace _2_задание
             Console.Write("Второе число: ");
             int num2 = int.Parse(Console.ReadLine());
             if (num2 == 0)
+            {
                 Console.WriteLine("на ноль делить нельзя");
+            }
             else
             {
                 Console.WriteLine($"{num} / {num2} = {num / num2}");

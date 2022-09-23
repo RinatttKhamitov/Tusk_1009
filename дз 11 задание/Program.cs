@@ -11,73 +11,34 @@ namespace дз_11_задание
             var num = Console.ReadLine();
             Console.Write("Число 2 = ");
             var num2 = Console.ReadLine();
-            try
+            if (num.Contains("."))
+                num = num.Replace(".", ",");
+            double numericValue;
+            bool isNumber = double.TryParse(num, out numericValue);
+            if (isNumber == false)
             {
-                double intnum = double.Parse(num);
+                Console.WriteLine("Число 1 строка");
             }
-            catch
-            {
-                if (num.Contains(','))
-                {
-                    num.Replace(',', '.');
-                    try
-                    {
-                        double intnum = double.Parse(num);
-                    }
-                    catch
-                    {
-                        Console.WriteLine("Ты ввел строку");
-                    }
-                    finally
-                    {
-                        double intnum = double.Parse(num);
-                    }
-                }
-                else
-                {
-                    string intnum = "строка";
-                    Console.WriteLine("Ты ввел строку");
-                }
 
-            }
-            finally
+            if (num2.Contains("."))
+                num2 = num2.Replace(".", ",");
+            double numericValue2;
+            bool isNumber2 = double.TryParse(num2, out numericValue2);
+            if (isNumber2 == false)
             {
-                double intnum = double.Parse(num);
+                Console.WriteLine("Число 2 строка");
             }
-            try
+            else
             {
-                double intnum2 = double.Parse(num2);
-            }
-            catch
-            {
-                if (num.Contains(','))
-                {
-                    num.Replace(',', '.');
-                    try
-                    {
-                        double intnum2 = double.Parse(num2);
-                    }
-                    catch
-                    {
-                        Console.WriteLine("Ты ввел строку");
-                    }
-                    finally
-                    {
-                        double intnum2 = double.Parse(num2);
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Ты ввел строку");
-                }
+                double numericValue3 = numericValue;
+                numericValue = numericValue2;
+                numericValue2 = numericValue3;
 
+                Console.WriteLine($"число 1 = {numericValue}, число 2 = {numericValue2}");
             }
-            finally
-            {
-                double intnum = double.Parse(num);
-                double intnum2 = double.Parse(num2);
-                Console.WriteLine($"Число 2 = {intnum2}, число 1 = {intnum}");
-            }
+        
+
+
         }
     }
 }
